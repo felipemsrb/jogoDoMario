@@ -3,3 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.game-board {
+    width: 80%;
+    height: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cano {
+    position: absolute;
+    bottom: 0;
+}
