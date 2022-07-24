@@ -10,9 +10,22 @@
     border: 1px solid black;
     margin: 0 auto;
     position: relative;
+    overflow: hidden;
 }
 
 .cano {
     position: absolute;
     bottom: 0;
+    width: 80px;
+    animation: animacao-cano 2s;
+}
+
+@keyframes animacao-cano {
+    from {
+        right: 0;
+    }
+
+    to {
+        right: 100%;
+    }
 }
