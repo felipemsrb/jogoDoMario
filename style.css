@@ -17,15 +17,45 @@
     position: absolute;
     bottom: 0;
     width: 80px;
-    animation: animacao-cano 2s;
+    animation: animacao-cano 2s infinite linear;
+}
+
+.mario {
+    position: absolute;
+    width: 150px;
+    bottom: 0;
+    animation: pulo 500ms  ease-out;
 }
 
 @keyframes animacao-cano {
     from {
-        right: 0;
+        right: -80px;
     }
 
     to {
         right: 100%;
+    }
+}
+
+@keyframes pulo {
+
+    0% {
+        bottom: 0;
+    }
+
+    40% {
+        bottom: 180px;
+    }
+
+    50% {
+        bottom: 180px;
+    }
+
+    60% {
+        bottom: 180px;
+    }
+
+    100% {
+        bottom: 0;
     }
 }
