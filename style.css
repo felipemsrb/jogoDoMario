@@ -24,7 +24,11 @@
     position: absolute;
     width: 150px;
     bottom: 0;
+}
+
+.jump {
     animation: pulo 500ms  ease-out;
+    
 }
 
 @keyframes animacao-cano {
