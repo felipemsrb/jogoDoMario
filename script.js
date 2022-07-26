@@ -1,7 +1,7 @@
 const mario = document.querySelector('.mario');
 
 const pula = () => {
-mario.classList.add('.jump');
+mario.classList.add('jump');
 
 };
 
