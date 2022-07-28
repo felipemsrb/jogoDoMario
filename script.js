@@ -17,11 +17,14 @@ setTimeout(() => {
 const loop = setInterval(() => {
     
     const posicaoCano = cano.offsetLeft;
+    const posicaoMario = +window.getComputedStyle(mario).bottom.replace('px', '');
+   
+    
 
-    if (posicaoCano <= 120) {
+    if (posicaoCano <= 120 && posicaoCano > 0 && posicaoMario < 80) {
         cano.style.animation = 'none';
         cano.style.left = `${posicaoCano}px`;
     }
-}, 10);
+}, 10); 
 
 document.addEventListener('keydown', pula);
