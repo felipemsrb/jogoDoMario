@@ -5,12 +5,13 @@
 }
 
 .game-board {
-    width: 80%;
+    width: 100%;
     height: 500px;
-    border: 1px solid black;
+    border-bottom: 20px solid green;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
+    background: linear-gradient(#87CEED, #E0F6FF);
 }
 
 .cano {
@@ -29,6 +30,12 @@
 .jump {
     animation: pulo 500ms  ease-out;
     
+}
+
+.nuvem {
+    width: 550px;
+    position: absolute;
+    animation: animacao-nuvem 20s infinite linear;
 }
 
 
@@ -62,5 +69,15 @@
 
     100% {
         bottom: 0;
+    }
+}
+
+@keyframes animacao-nuvem {
+    from {
+        right: -550px;
+    }
+
+    to {
+        right: 100%;
     }
 }
