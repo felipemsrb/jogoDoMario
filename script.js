@@ -22,8 +22,13 @@ const loop = setInterval(() => {
     
 
     if (posicaoCano <= 120 && posicaoCano > 0 && posicaoMario < 80) {
+        
         cano.style.animation = 'none';
         cano.style.left = `${posicaoCano}px`;
+
+        mario.style.animation = 'none';
+        mario.style.bottom = `${posicaoMario}px`;
+        
     }
 }, 10); 
 
