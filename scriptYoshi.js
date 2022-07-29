@@ -6,17 +6,17 @@
     
  let meusPontos = 0;   
  
- const mario = document.querySelector('.mario');
+ const yoshi = document.querySelector('.yoshi');
  const cano = document.querySelector('.cano');
  
  const pula = () => {
-     mario.classList.add('jump');
+     yoshi.classList.add('jump');
      
      
 
 setTimeout(() => {
     
-    mario.classList.remove('jump');
+    yoshi.classList.remove('jump');
     
 }, 500);
 
@@ -25,23 +25,23 @@ setTimeout(() => {
 const loop = setInterval(() => {
     
     const posicaoCano = cano.offsetLeft;
-    const posicaoMario = +window.getComputedStyle(mario).bottom.replace('px', '');
+    const posicaoYoshi = +window.getComputedStyle(yoshi).bottom.replace('px', '');
     
     
     
-    if (posicaoCano <= 120 && posicaoCano > 0 && posicaoMario < 80) {
+    if (posicaoCano <= 120 && posicaoCano > 0 && posicaoYoshi < 80) {
         
         
         
         cano.style.animation = 'none';
         cano.style.left = `${posicaoCano}px`;
 
-        mario.style.animation = 'none';
-        mario.style.bottom = `${posicaoMario}px`;
+        yoshi.style.animation = 'none';
+        yoshi.style.bottom = `${posicaoYoshi}px`;
 
-        mario.src = "game-over.png";
-        mario.style.width = '75px'
-        mario.style.marginLeft = '50px';
+        yoshi.src = "yoshiGameOver.png";
+        yoshi.style.width = '75px'
+        yoshi.style.marginLeft = '50px';
         
         
         
