@@ -60,14 +60,18 @@
     padding: 10px;
     font-size: 25px;
     font-weight: bold;
-    color: black;
+    background-color: black;
     
 }
 
-.lista-personagens a {
+.botao-yoshi {
     text-decoration: none;
-    
+    color: green;
+}
 
+.botao-mario {
+    text-decoration: none;
+    color: red;
 }
 
 
