@@ -53,14 +53,14 @@ const loop = setInterval(() => {
         
         clearInterval(loop);
         
-    }  /*else if (posicaoCano > -5 && posicaoCano < 0 && posicaoMario > 80) {
+    }  else if (posicaoCano > -2 && posicaoCano < 0 && posicaoYoshi > 80) {
         
         meusPontos += 1;
         document.querySelector('#score').innerHTML= meusPontos;
         console.log(posicaoCano)
         return meusPontos;
-
-    }*/
+        
+    }
 }, 10); 
 
 
