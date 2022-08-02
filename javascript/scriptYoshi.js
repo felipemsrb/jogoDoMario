@@ -39,7 +39,7 @@ const loop = setInterval(() => {
         yoshi.style.animation = 'none';
         yoshi.style.bottom = `${posicaoYoshi}px`;
 
-        yoshi.src = "yoshiGameOver.png";
+        yoshi.src = "./imagens/yoshiGameOver.png";
         yoshi.style.width = '75px'
         yoshi.style.marginLeft = '50px';
         
