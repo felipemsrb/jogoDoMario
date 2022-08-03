@@ -11,4 +11,29 @@
     height: 600px;
     margin: 0 auto;
     position: relative;
+    justify-content: space-between;
+}
+
+.menu__yoshi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu__mario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu__imagem__mario {
+    width: 50%;
+    height: 400px;
+    position: absolute;
+}
+
+.menu__imagem__yoshi {
+    width: 50%;
+    height: 400px;
+    position: absolute;
 }
