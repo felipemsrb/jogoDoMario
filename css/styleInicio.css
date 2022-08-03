@@ -11,7 +11,10 @@
     height: 600px;
     margin: 0 auto;
     position: relative;
+    display: flex;
     justify-content: space-between;
+    padding: 2rem;
+    background-image: url("background-jogo.jpg");
 }
 
 .menu__yoshi{
@@ -27,13 +30,36 @@
 }
 
 .menu__imagem__mario {
-    width: 50%;
+    width: 200px;
     height: 400px;
-    position: absolute;
+    margin-bottom: 2rem;
+    
 }
 
 .menu__imagem__yoshi {
-    width: 50%;
+    width: 200px;
     height: 400px;
-    position: absolute;
+    margin-bottom: 2rem;
+    
 }
+
+.menu__link__yoshi {
+    text-decoration: none;
+    font-size: 3rem;
+    background-color: black;
+    color: green;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 5px green solid;
+}
+
+.menu__link__mario {
+    text-decoration: none;
+    font-size: 3rem;
+    background-color: black;
+    color: red;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 5px red solid;
+}
+
