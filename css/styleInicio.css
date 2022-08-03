@@ -14,7 +14,7 @@
     display: flex;
     justify-content: space-between;
     padding: 2rem;
-    background-image: url("background-jogo.jpg");
+    background-image: url("../imagens/background-jogo.jpg");
 }
 
 .menu__yoshi{
