@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.menu{
+    border: 1px solid black;
+    width: 50%;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+}
