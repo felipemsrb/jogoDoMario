@@ -26,6 +26,8 @@ const loop = setInterval(() => {
     
     const posicaoCano = cano.offsetLeft;
     const posicaoYoshi = +window.getComputedStyle(yoshi).bottom.replace('px', '');
+    const musicaGameOver = document.getElementById('game-over');
+    const musicaYoshi = document.getElementById('musica-yoshi');
     
     
     
@@ -42,6 +44,9 @@ const loop = setInterval(() => {
         yoshi.src = "./imagens/yoshiGameOver.png";
         yoshi.style.width = '75px'
         yoshi.style.marginLeft = '50px';
+
+        musicaYoshi.pause();
+        musicaGameOver.play();
         
         
         

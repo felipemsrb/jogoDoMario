@@ -26,6 +26,8 @@ const loop = setInterval(() => {
     
     const posicaoCano = cano.offsetLeft;
     const posicaoMario = +window.getComputedStyle(mario).bottom.replace('px', '');
+    const musicaGameOver = document.getElementById('game-over');
+    const musicaMario = document.getElementById('musica-mario');
     
     console.log(posicaoCano)
     
@@ -44,6 +46,8 @@ const loop = setInterval(() => {
         mario.style.width = '75px'
         mario.style.marginLeft = '50px';
         
+        musicaMario.pause();
+        musicaGameOver.play();
         
         
         
