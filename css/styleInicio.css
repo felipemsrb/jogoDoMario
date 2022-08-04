@@ -15,6 +15,7 @@
     justify-content: space-between;
     padding: 2rem;
     background-image: url("../imagens/background-jogo.jpg");
+    background-size: cover;
 }
 
 .menu__yoshi{
