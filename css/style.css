@@ -51,8 +51,8 @@
 
 }
 
-.personagens {
-    width: 500px;
+.inicio {
+    width: 300px;
     border: 5px solid red;
     height: 50px;
     margin: 2em auto;
@@ -60,20 +60,22 @@
     padding: 10px;
     font-size: 25px;
     font-weight: bold;
-    background-color: black;
+    background-color: lightblue;
+    border-radius: 10px;
+    
     
 }
 
-.botao-yoshi {
-    text-decoration: none;
-    color: green;
+.inicio__botao {
+   
+    font-size: 1.rem;
+    
 }
 
-.botao-mario {
+.inicio__link {
     text-decoration: none;
-    color: red;
+    color: darkgreen
 }
-
 
 
 

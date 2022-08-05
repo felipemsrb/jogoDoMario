@@ -8,9 +8,11 @@ let meusPontos = 0;
  
  const mario = document.querySelector('.mario');
  const cano = document.querySelector('.cano');
+ const somPulo = document.getElementById('som-pulo');
  
  const pula = () => {
      mario.classList.add('jump');
+     somPulo.play();
      
      
      

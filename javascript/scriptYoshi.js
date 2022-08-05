@@ -8,9 +8,11 @@
  
  const yoshi = document.querySelector('.yoshi');
  const cano = document.querySelector('.cano');
+ const somPulo = document.getElementById('som-pulo');
  
  const pula = () => {
      yoshi.classList.add('jump');
+     somPulo.play();
      
      
 
@@ -47,6 +49,7 @@ const loop = setInterval(() => {
 
         musicaYoshi.pause();
         musicaGameOver.play();
+        
         
         
         
